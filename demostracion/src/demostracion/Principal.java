@@ -34,14 +34,14 @@ public class Principal {
                 calc = 3;
                 add = calc * 0.05;
                 pago = (calc + add)*iva;
-                pfinal = pago + add + pago;
+                pfinal = pago + add + pago + calc;
         System.out.printf("La cantidad a pagar por sus mensajes enviados es por la cantidad de: %2f\n",pfinal," USD");    
             }else{
                 if (msj > 200){
                    calc =  3;
                 add = calc * 0.1;
                 pago = calc + add;
-                pfinal = pago + add + pago;
+                pfinal = pago + add + pago +calc;
         System.out.printf("La cantidad a pagar por sus mensajes enviados es por la cantidad de: %2f\n",pfinal," USD");   
                 }
             }
