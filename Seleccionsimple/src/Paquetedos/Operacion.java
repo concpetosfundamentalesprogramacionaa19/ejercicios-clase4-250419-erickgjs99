@@ -10,6 +10,9 @@ package Paquetedos;
  * @author Usuario
  */
 public class Operacion {
-    public static String miMensaje = ("Usted esta aprobado \n");
+    //declaracion  de datos a importar
+    public static String miMensaje = ("Usted esta aprobado con: \n");
+    public static String miMensaje2 = ("Usted no esta aprobado con:  \n");
+    
            
 }

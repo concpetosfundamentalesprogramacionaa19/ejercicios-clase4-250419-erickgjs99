@@ -6,16 +6,11 @@
 package Ejercicios;
 import Paquetedos.Operacion;
 import java.util.Scanner;
-
 /**
  *
  * @author Usuario
  */
-public class Seleccionsimple {
-
-    /**
-     * @param args the command line arguments
-     */
+public class SeleccionDoble {
     public static void main(String[] args) {
         Scanner entrada = new Scanner (System.in);
         //declaracion de variables
@@ -30,11 +25,19 @@ public class Seleccionsimple {
         //condicionales
         if (nota1 >= 85){
             System.out.printf("%s %d",Operacion.miMensaje, nota1 );   
-        }
-          if (nota2 < 85){
+            //si no cumple la condicion
+        } else {
+              System.out.printf("%s &d", Operacion.miMensaje2, nota1);
+          }     
+          if (nota2 >= 85){
             System.out.printf("%s %d",Operacion.miMensaje, nota2 );   
-        }        
+            //si no cumple la condicion
+        }  else {
+              System.out.printf("%s &d", Operacion.miMensaje2, nota2);
+          }     
         
-    }
+    }}
     
-}
+
+
+
